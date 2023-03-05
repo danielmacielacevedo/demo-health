@@ -51,6 +51,10 @@ html
 
 }
 
+html a {
+    color: var(--gradient3);
+}
+
 html::-webkit-scrollbar
 {
     width: 10px;
