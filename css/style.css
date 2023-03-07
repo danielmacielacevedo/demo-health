@@ -6,7 +6,7 @@
 
     /* yarenails palette */
     --color: #000000;
-    --color2: #212121;
+    --color2: #3e3e3e;
     --color3: #000000;
     --white: #f8f8f8;
 
@@ -303,10 +303,10 @@ h5
 .menu-button-burger
 {
     width: 24px;
-    height: 2px;
-    background: var(--color);
+    height: 3px;
+    background: var(--gradient3);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
     transition: all .5s ease-in-out;
 }
 .menu-button-burger::before,
@@ -315,10 +315,10 @@ h5
     content: ' ';
     position: absolute;
     width: 24px;
-    height: 2px;
-    background: var(--color);
+    height: 3px;
+    background: var(--gradient3);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
     transition: all .5s ease-in-out;
 }
 .menu-button-burger::before
@@ -398,7 +398,7 @@ h5
     max-width: 100%;
     background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient2), var(--gradient1));
     background-size: 500% 500%;
-    animation: animate-background 10s infinite ease-in-out;
+    animation: animate-background 20s infinite ease-in-out;
 }
 .right-section
 {
@@ -426,7 +426,7 @@ h5
     width: 256px;
     height: auto;
     object-fit: cover;
-    animation: position-cover 10s infinite ease-in-out;
+    animation: position-cover 20s infinite ease-in-out;
 }
 @keyframes position-cover
 {
@@ -496,7 +496,7 @@ h5
     position: absolute;
     z-index: 9;
     width: auto;
-    height: 70%;
+    height: 72%;
     bottom: 0;
 }
 #top-featured-title
@@ -505,14 +505,14 @@ h5
     z-index: 8;
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
-    font-weight: 100;
-    animation: color-title 10s infinite ease-in-out;
+    font-weight: 700;
+    animation: color-title 20s infinite ease-in-out;
 }
 #bottom-featured-title
 {
     position: absolute;
-    top: 140px;
-    color: #afafaf;
+    top: 170px;
+    color: var(--color2);
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
     font-weight: 700;
@@ -659,8 +659,8 @@ h5
     padding: 0 20px 2.4px 20px;
     border-radius: 6px;
     background: linear-gradient(to right, var(--gradient3), var(--gradient2), var(--gradient1), var(--gradient2), var(--gradient3));
-    background-size: 500% 500%;
-    animation: animate-background 10s infinite ease-in-out;
+    background-size: 1000% 1000%;
+    animation: animate-background 20s infinite ease-in-out;
     font-size: 14px;
     color: var(--color2);
     font-weight: 600;
@@ -1008,7 +1008,7 @@ h5
     border-radius: 6px;
     background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient2), var(--gradient1));
     background-size: 500% 500%;
-    animation: animate-background 10s infinite ease-in-out;
+    animation: animate-background 20s infinite ease-in-out;
     font-size: 14px;
     color: var(--primary-color);
     font-weight: 600;
@@ -1486,7 +1486,7 @@ h5
     }
     #featured-image
     {
-        height: 76%;
+        height: 78%;
     }
     #top-featured-title
     {
@@ -1495,7 +1495,7 @@ h5
     #bottom-featured-title
     {
         font-size: 50px;
-        top: 100px;
+        top: 116px;
     }
     .right-section
     {
